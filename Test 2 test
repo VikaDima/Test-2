@@ -1,0 +1,10 @@
+function plural_form($number,$before,$after) {
+    $cases = array(2,0,1,1,1,2);
+    echo $before[($number%100>4 && $number%1004 && $number%100
+<br></20>
+<script type="syntaxhighlighter" class="brush: php">
+plural_form(
+    57,
+    array('опубликован','опубликовано','опубликовано'),
+    array('комментарий','комментария','комментариев')
+);
